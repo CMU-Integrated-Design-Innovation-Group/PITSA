@@ -86,6 +86,14 @@ The folder “Problem4D_Server” contains the following six Python scripts for 
 The Python scripts included in this project have been compiled and executed in the following environment.
 
 ## Instructions
+### Input information for the Python scripts when solving the two continuous constraint satisfaction problems
+The sample-based exhaustive search method: The user needs to enter a floating-point number (e.g., 1e-3 for the two-dimensional problem and 0.05 for the four-dimensional problem) as the distance between two adjacent sample points.  
+
+The region-based exhaustive search method: The user needs to enter a floating-point number (e.g., 1e-3 for the two-dimensional problem and 0.05 for the four-dimensional problem) as the edge length of each square/hypercube. The user also needs to specify the number of subintervals in each dimension (e.g., 10) for the splitting approach that is used to derive the sharper bounds for interval computation. 
+
+The GPU-based iterative parallel classification method: The user needs to enter a floating-point number (e.g., 1e-3 for the two-dimensional problem and 0.05 for the four-dimensional problem) as the smallest region width that is employed as the stopping criterion for the iteration process. The user also needs to specify the number of subintervals in each dimension (e.g., 10) for the splitting approach that is used to derive the sharper bounds for interval computation.    
+
+### Necessary modifications for the Python scripts when solving other continuous constraint satisfaction problems
 
 
 ## Citation
