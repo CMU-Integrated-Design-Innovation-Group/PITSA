@@ -83,7 +83,7 @@ The folder “Problem4D_Server” contains the following six Python scripts for 
 -  test_4D_512_feasible.csv: The CSV file “test_4D_512_feasible.csv” includes the sets of intervals for feasible regions classified by the GPU-based iterative parallel classification method.
 
 ## Environment
-The Python scripts included in this project have been compiled and executed in the following environment.
+The Python scripts included in this project have been compiled and executed successfully in the following environment.
 
 ## Instructions
 ### Input information for the Python scripts when solving the two continuous constraint satisfaction problems
