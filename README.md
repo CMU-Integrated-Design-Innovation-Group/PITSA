@@ -97,6 +97,7 @@ The GPU-based iterative parallel classification method: The user needs to enter 
 When the Python scripts for the GPU-based iterative parallel classification method are used to solve other continuous constraint satisfaction problems, the user needs to:
 -  Create a separate Python script (i.e., setup.py file for the new problem) that defines all constraint functions in the new problem based on interval arithmetic.
 -  Modify the “check” function in extant Python scripts (e.g., PITSA4G_Server.py) based on the number of variables and the number of constraints in the new problem.
+-  Modify the Python script "IA_GPU.py" and define extra interval operation(s) if these extra interval operation(s) are employed in the new problem.
 -  Modify the partition strategy based on the compute capability of the user's GPU.
 -  Modify the stopping criterion for the GPU-based iterative parallel classification method.
 
