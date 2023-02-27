@@ -4,12 +4,20 @@ The PITSA project provides the code lists and the Python source code to implemen
 
 The PITSA project is authored by Wangchuan Feng, [Guanglu Zhang](https://www.researchgate.net/profile/Guanglu-Zhang), and [Jonathan Cagan](https://www.meche.engineering.cmu.edu/directory/bios/cagan-jonathan.html), from [the Integrated Design Innovation Group (IDIG)](https://www.cmu.edu/me/idig/) at Carnegie Mellon University.
 
-## Folder Structure
-### Directory Tree
-![3](https://user-images.githubusercontent.com/117691203/221443444-4d787ee2-bb3d-474e-b1fe-e77186f74de4.png)
-### Folder and File Descriptions
+## Contents
+1. [Directory Tree](https://github.com/CMU-Integrated-Design-Innovation-Group/PITSA/edit/main/README.md#directory-tree)
+2. [Folder and File Descriptions](https://github.com/CMU-Integrated-Design-Innovation-Group/PITSA/edit/main/README.md#folder-and-file-descriptions)
+3. [Environment](https://github.com/CMU-Integrated-Design-Innovation-Group/PITSA/edit/main/README.md#environment)
+4. [Instructions](https://github.com/CMU-Integrated-Design-Innovation-Group/PITSA/edit/main/README.md#instructions)
+5. [Citation](https://github.com/CMU-Integrated-Design-Innovation-Group/PITSA/edit/main/README.md#citation)
+6. [License](https://github.com/CMU-Integrated-Design-Innovation-Group/PITSA/edit/main/README.md#license)
 
-#### RBS_codes 
+## Directory Tree
+![3](https://user-images.githubusercontent.com/117691203/221443444-4d787ee2-bb3d-474e-b1fe-e77186f74de4.png)
+
+## Folder and File Descriptions
+
+### RBS_codes 
 The folder “RBS_codes” constains the Python scripts and the results for the two  continuous constraint satisfaction problems. These Python scripts are executed using two computing resources, including a laptop with one GPU and a server with one GPU. 
 
 #### Problem2D_Laptop
