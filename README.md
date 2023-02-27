@@ -52,6 +52,6 @@ The folder “Problem4D_Laptop” contains the following six Python scripts for 
 ## Citation
 
 ## License
-
+PITSA is freely available for academic or non-profit organization noncommercial research only. Please check [the license file](https://github.com/CMU-Integrated-Design-Innovation-Group/PITSA/blob/main/LICENSE) for further details. If you are interested in a commercial license, please contact [CMU Center for Technology Transfer and Enterprise Creation](https://www.cmu.edu/cttec/contact-us/index.html) at **innovation@cmu.edu**.
 
 
