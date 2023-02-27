@@ -18,7 +18,7 @@ The PITSA project is authored by Wangchuan Feng, [Guanglu Zhang](https://www.res
 ## Folder and File Descriptions
 
 ### RBS_codes 
-The folder “RBS_codes” constains the Python scripts and the results for the two  continuous constraint satisfaction problems. These Python scripts are executed using two computing resources, including a laptop with one GPU and a server with one GPU. 
+The folder “RBS_codes” contains the Python scripts and the results for the two  continuous constraint satisfaction problems. These Python scripts are executed using two computing resources, including a laptop with one GPU and a server with one GPU. 
 
 #### Problem2D_Laptop
 The folder “Problem2D_Laptop” contains the following five Python scripts for implementing the sample-based exhaustive search method, the region-based exhaustive search method, and the GPU-based iterative parallel classification method to solve the two-dimensional continuous constraint satisfaction problem involving birds function. These Python scripts are executed using a laptop with one GPU.
@@ -46,7 +46,7 @@ The folder “Problem2D_Server” contains the following five Python scripts for
 
 -  PITSA2G_Server.py: The Python script “PITSA2G_Server.py” sets up the GPU-based iterative parallel classification method to solve the two-dimensional problem using the server with one GPU. The Python script “PITSA2G_Server.py” calls “IA_GPU.py” and “setup_2G.py” scripts when it is executed.
 
--  test_2D_196608.csv: The csv file “test_2D_196608.csv” includes the sets of intervals for all classified regions (i.e., feasible, infeasible, and indeterminate regions) as the result derived from the the GPU-based iterative parallel classification method. Each set of two intervals corresponds to one classified region in the design space. 
+-  test_2D_196608.csv: The CSV file “test_2D_196608.csv” includes the sets of intervals for all classified regions (i.e., feasible, infeasible, and indeterminate regions) as the result derived from the GPU-based iterative parallel classification method. Each set of two intervals corresponds to one classified region in the design space. 
 
 #### Problem4D_Laptop
 The folder “Problem4D_Laptop” contains the following six Python scripts for implementing the sample-based exhaustive search method, the region-based exhaustive search method, and the GPU-based iterative parallel classification method to solve the four-dimensional continuous constraint satisfaction problem of welded beam design. These Python scripts are executed using a laptop with one GPU.
@@ -78,9 +78,9 @@ The folder “Problem4D_Server” contains the following six Python scripts for 
 
 -  PITSA4G_Server.py: The Python script “PITSA4G_Server.py” sets up the GPU-based iterative parallel classification method to solve the four-dimensional problem using the server with one GPU. The Python script “PITSA4G_Server.py” calls “IA_GPU.py” and “setup_4G.py” scripts when it is executed.
 
--  test_4D_512.csv: The csv file “test_4D_512.csv” includes the sets of intervals for all classified regions (i.e., feasible, infeasible, and indeterminate regions) as the result derived from the the GPU-based iterative parallel classification method. Each set of four intervals corresponds to one classified region in the design space.
+-  test_4D_512.csv: The CSV file “test_4D_512.csv” includes the sets of intervals for all classified regions (i.e., feasible, infeasible, and indeterminate regions) as the result derived from the GPU-based iterative parallel classification method. Each set of four intervals corresponds to one classified region in the design space.
 
--  test_4D_512_feasible.csv: The csv file “test_4D_512_feasible.csv” includes the sets of intervals for feasible regions classified by the GPU-based iterative parallel classification method.
+-  test_4D_512_feasible.csv: The CSV file “test_4D_512_feasible.csv” includes the sets of intervals for feasible regions classified by the GPU-based iterative parallel classification method.
 
 ## Environment
 
