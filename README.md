@@ -83,10 +83,13 @@ The folder “Problem4D_Server” contains the following six Python scripts for 
 -  test_4D_512_feasible.csv: The CSV file “test_4D_512_feasible.csv” includes the sets of intervals for feasible regions classified by the GPU-based iterative parallel classification method.
 
 ## Environment
+The Python scripts included in this project have been compiled and executed in the following environment.
 
 ## Instructions
 
+
 ## Citation
+The paper related to the PITSA project is under review. This section will be updated soon.
 
 ## License
 PITSA is freely available for academic or non-profit organizations' noncommercial research only. Please check [the license file](https://github.com/CMU-Integrated-Design-Innovation-Group/PITSA/blob/main/LICENSE) for further details. If you are interested in a commercial license, please contact [CMU Center for Technology Transfer and Enterprise Creation](https://www.cmu.edu/cttec/contact-us/index.html) at **innovation@cmu.edu**.
