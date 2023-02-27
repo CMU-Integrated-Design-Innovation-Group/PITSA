@@ -94,12 +94,15 @@ The region-based exhaustive search method: The user needs to enter a floating-po
 The GPU-based iterative parallel classification method: The user needs to enter a floating-point number (e.g., 1e-3 for the two-dimensional problem and 0.05 for the four-dimensional problem) as the smallest region width that is employed as the stopping criterion for the iteration process. The user also needs to specify the number of subintervals in each dimension (e.g., 10) for the splitting approach that is used to derive the sharper bounds for interval computation.    
 
 ### Necessary modifications for the Python scripts when solving other continuous constraint satisfaction problems
-
+When the Python scripts for the GPU-based iterative parallel classification method are used to solve other continuous constraint satisfaction problems, the user needs to:
+-  Create a separate Python script (i.e., setup.py file for the new problem) that define all constraint functions in the new problem based on interval arithmetic.
+-  Modify the “check” function in extant Python scripts (e.g., PITSA4G_Server.py) based on the number of variables and the number of constraints in the new problem.
+-  Modify the partition strategy based on the compute capability of the user's GPU.
+-  Modify the stopping criterion for the GPU-based iterative parallel classification method.
 
 ## Citation
 The paper related to the PITSA project is under review. This section will be updated soon.
 
 ## License
 PITSA is freely available for academic or non-profit organizations' noncommercial research only. Please check [the license file](https://github.com/CMU-Integrated-Design-Innovation-Group/PITSA/blob/main/LICENSE) for further details. If you are interested in a commercial license, please contact [CMU Center for Technology Transfer and Enterprise Creation](https://www.cmu.edu/cttec/contact-us/index.html) at **innovation@cmu.edu**.
-
 
