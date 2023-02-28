@@ -84,6 +84,10 @@ The folder “Problem4D_Server” contains the following six Python scripts for 
 
 ## Environment
 The Python scripts included in this project have been compiled and executed successfully in the following environment.
+- Python	3.8.10
+- CUDA	11.1
+- NumPy	1.22.4
+- Numba	0.55.2
 
 ## Instructions
 ### Input information for the Python scripts when solving the two continuous constraint satisfaction problems
