@@ -1,4 +1,4 @@
-![PITSA Logo_20230301v2](https://user-images.githubusercontent.com/117691203/222273849-67d3c0f3-a2b3-4313-be53-37bb01847f7e.png)
+![PITSA Logo_20230301v3](https://user-images.githubusercontent.com/117691203/222276060-c1749dc8-2c25-4187-bc2a-107a758187ae.png)
 
 The PITSA project provides the code lists and the Python source code to implement **a GPU-based iterative parallel classification method** for two continuous constraint satisfaction problems (i.e., two case studies). The results of these two problems are also included in the project. 
 
