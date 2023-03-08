@@ -1,6 +1,6 @@
 ![PITSA Logo_20230301v3](https://user-images.githubusercontent.com/117691203/222276060-c1749dc8-2c25-4187-bc2a-107a758187ae.png)
 
-The PITSA project provides the code lists and the Python source code to implement **a GPU-based iterative parallel classification method** for two continuous constraint satisfaction problems. The results of these two problems are also included in the project. 
+The PITSA project provides the code lists and the Python source code to implement **a GPU-based parallel region classification method** for two continuous constraint satisfaction problems. The results of these two problems are also included in the project. 
 
 The PITSA project is authored by Wangchuan Feng, [Guanglu Zhang](https://www.researchgate.net/profile/Guanglu-Zhang), and [Jonathan Cagan](https://www.meche.engineering.cmu.edu/directory/bios/cagan-jonathan.html), from [the Integrated Design Innovation Group (IDIG)](https://www.cmu.edu/me/idig/) at Carnegie Mellon University.
 
