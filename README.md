@@ -34,7 +34,7 @@ The folder “Problem2D_Laptop” contains the following five Python scripts for
 -  PITSA2G_Laptop.py: The Python script “PITSA2G_Laptop.py” sets up the GPU-based parallel region classification method to solve the two-dimensional problem using the laptop with one GPU. The Python script “PITSA2G_Laptop.py” calls “IA_GPU.py” and “setup_2G.py” scripts when it is executed. 
 
 #### Problem2D_Server
-The folder “Problem2D_Server” contains the following five Python scripts for implementing the sampling-based exhaustive search method, the region-based exhaustive search method, and the GPU-based parallel region classification method to solve the two-dimensional continuous constraint satisfaction problem involving birds function. These Python scripts are executed using a server with one GPU. A ZIP data file is also included as the result derived from the GPU-based iterative parallel classification method.
+The folder “Problem2D_Server” contains the following five Python scripts for implementing the sampling-based exhaustive search method, the region-based exhaustive search method, and the GPU-based parallel region classification method to solve the two-dimensional continuous constraint satisfaction problem involving birds function. These Python scripts are executed using a server with one GPU. A ZIP data file is also included as the result derived from the GPU-based parallel region classification method.
 
 -  IA_GPU.py: The Python script “IA_GPU.py” realizes several basic interval arithmetic operations on GPU.
 
