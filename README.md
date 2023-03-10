@@ -89,11 +89,11 @@ The Python scripts included in the folder “PITSA_1.0” have been compiled and
 
 ## Instructions
 ### Input information for the Python scripts when solving the two continuous constraint satisfaction problems
-The sampling-based exhaustive search method: The user needs to enter a floating-point number (e.g., 1e-3 for the two-dimensional problem and 0.05 for the four-dimensional problem) as the distance between two adjacent sample points.  
+The sampling-based exhaustive search method: The user needs to enter a floating-point number (e.g., 1e-4 for the two-dimensional problem and 0.05 for the four-dimensional problem) as the distance between two adjacent sample points.  
 
-The region-based exhaustive search method: The user needs to enter a floating-point number (e.g., 1e-3 for the two-dimensional problem and 0.05 for the four-dimensional problem) as the edge length of each square/hypercube. The user also needs to specify the number of subintervals in each dimension (e.g., 10) for the splitting approach that is used to derive the sharper bounds for interval computation. 
+The region-based exhaustive search method: The user needs to enter a floating-point number (e.g., 1e-4 for the two-dimensional problem and 0.05 for the four-dimensional problem) as the edge length of each square/hypercube. The user also needs to specify the number of subintervals in each dimension (e.g., 10) for the splitting approach that is used to derive the sharper bounds for interval computation. 
 
-The GPU-based parallel region classification method: The user needs to enter a floating-point number (e.g., 1e-3 for the two-dimensional problem and 0.05 for the four-dimensional problem) as the smallest region width that is employed as the stopping criterion for the iteration process. The user also needs to specify the number of subintervals in each dimension (e.g., 10) for the splitting approach that is used to derive the sharper bounds for interval computation.    
+The GPU-based parallel region classification method: The user needs to enter a number (e.g., 1e-4 for the two-dimensional problem and 500 for the four-dimensional problem) to define the smallest region width that is employed as the stopping criterion for the iteration process. The user also needs to specify the number of subintervals in each dimension (e.g., 3, 5, or 10) for the splitting approach that is used to derive the sharper bounds for interval computation.    
 
 ### Necessary modifications for the Python scripts when solving other continuous constraint satisfaction problems
 When the Python scripts for the GPU-based parallel region classification method are used to solve other continuous constraint satisfaction problems, the user needs to:
