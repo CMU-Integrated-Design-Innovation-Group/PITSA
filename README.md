@@ -13,7 +13,7 @@ The PITSA project is authored by Wangchuan Feng, [Guanglu Zhang](https://www.res
 6. [License](https://github.com/CMU-Integrated-Design-Innovation-Group/PITSA#license)
 
 ## Directory Tree
-![Directory Tree_20230310](https://user-images.githubusercontent.com/117691203/224417647-f83446b7-f1b9-4902-9f30-12cb6614d4bf.jpg)
+![Directory Tree_20230310v2](https://user-images.githubusercontent.com/117691203/224418175-4b2e0a37-ce53-4923-a749-384020bd73ab.jpg)
 
 ## Folder and File Descriptions
 
