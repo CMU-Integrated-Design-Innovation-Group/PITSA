@@ -93,15 +93,15 @@ The sampling-based exhaustive search method: The user needs to enter a floating-
 
 The region-based exhaustive search method: The user needs to enter a floating-point number (e.g., 1e-3 for the two-dimensional problem and 0.05 for the four-dimensional problem) as the edge length of each square/hypercube. The user also needs to specify the number of subintervals in each dimension (e.g., 10) for the splitting approach that is used to derive the sharper bounds for interval computation. 
 
-The GPU-based iterative parallel classification method: The user needs to enter a floating-point number (e.g., 1e-3 for the two-dimensional problem and 0.05 for the four-dimensional problem) as the smallest region width that is employed as the stopping criterion for the iteration process. The user also needs to specify the number of subintervals in each dimension (e.g., 10) for the splitting approach that is used to derive the sharper bounds for interval computation.    
+The GPU-based parallel region classification method: The user needs to enter a floating-point number (e.g., 1e-3 for the two-dimensional problem and 0.05 for the four-dimensional problem) as the smallest region width that is employed as the stopping criterion for the iteration process. The user also needs to specify the number of subintervals in each dimension (e.g., 10) for the splitting approach that is used to derive the sharper bounds for interval computation.    
 
 ### Necessary modifications for the Python scripts when solving other continuous constraint satisfaction problems
-When the Python scripts for the GPU-based iterative parallel classification method are used to solve other continuous constraint satisfaction problems, the user needs to:
+When the Python scripts for the GPU-based parallel region classification method are used to solve other continuous constraint satisfaction problems, the user needs to:
 -  Create a separate Python script (i.e., setup.py file for the new problem) that defines all constraint functions in the new problem based on interval arithmetic.
 -  Modify the “check” function in extant Python scripts (e.g., PITSA4G_Server.py) based on the number of variables and the number of constraints in the new problem.
 -  Modify the Python script "IA_GPU.py" and define extra interval operation(s) if these extra interval operation(s) are employed in the new problem.
 -  Modify the partition strategy based on the compute capability of the user's GPU.
--  Modify the stopping criterion for the GPU-based iterative parallel classification method.
+-  Modify the stopping criterion for the GPU-based parallel region classification method.
 
 ## Citation
 The paper related to the PITSA project is under review. This section will be updated soon.
