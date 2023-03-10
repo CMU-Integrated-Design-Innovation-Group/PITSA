@@ -81,7 +81,7 @@ The folder “Problem4D_Server” contains the following six Python scripts for 
 -  test_4D_500_feasible.zip: The ZIP file “test_4D_500_feasible.zip” is a compressed CSV file that includes the sets of intervals for feasible regions classified by the GPU-based parallel region classification method.
 
 ## Environment
-The Python scripts included in this project have been compiled and executed successfully in the following environment.
+The Python scripts included in the folder “PITSA_1.0” have been compiled and executed successfully in the following environment.
 - Python	3.8.10
 - CUDA	11.1
 - NumPy	1.22.4
