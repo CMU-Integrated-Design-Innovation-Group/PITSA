@@ -1,7 +1,0 @@
-/LICENSE filter=lfs diff=lfs merge=lfs -text
-/PITSA_1.0/Problem2D_Laptop/TEST_Remove_Later filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
-/PITSA_1.0/Problem4D_Laptop/TEST_REMOVE_LATER filter=lfs diff=lfs merge=lfs -text
-/PITSA_1.0/Problem4D_Server/TEST_REMOVE_LATER filter=lfs diff=lfs merge=lfs -text
-*.pdf filter=lfs diff=lfs merge=lfs -text
-*.md filter=lfs diff=lfs merge=lfs -text
