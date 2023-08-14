@@ -104,7 +104,7 @@ When the Python scripts for the GPU-based parallel region classification method 
 -  Modify the stopping criterion for the GPU-based parallel region classification method.
 
 ## Citation
-The paper related to the PITSA project is under review. This section will be updated soon.
+The paper related to the PITSA project has been accepted. This section will be updated soon.
 
 ## License
 PITSA is freely available for academic or non-profit organizations' noncommercial research only. Please check [the license file](https://github.com/CMU-Integrated-Design-Innovation-Group/PITSA/blob/main/LICENSE) for further details. If you are interested in a commercial license, please contact [CMU Center for Technology Transfer and Enterprise Creation](https://www.cmu.edu/cttec/contact-us/index.html) at **innovation@cmu.edu**.
