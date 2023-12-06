@@ -104,7 +104,11 @@ When the Python scripts for the GPU-based parallel region classification method 
 -  Modify the stopping criterion for the GPU-based parallel region classification method.
 
 ## Citation
-The paper related to the PITSA project has been accepted. This section will be updated soon.
+Please cite the following journal paper in your publications if the PITSA project helps your research.
+
+Zhang, G., Feng, W., & Cagan, J. (2024). A GPU-Based Parallel Region Classification Method for Continuous Constraint Satisfaction Problems. Journal of Mechanical Design, 146(4): 041001. https://doi.org/10.1115/1.4063158
+
+The paper could be accessed through the author's ResearchGate page ([**link**](https://www.researchgate.net/publication/373041009_A_GPU-Based_Parallel_Region_Classification_Method_for_Continuous_Constraint_Satisfaction_Problems)).
 
 ## License
 PITSA is freely available for academic or non-profit organizations' noncommercial research only. Please check [the license file](https://github.com/CMU-Integrated-Design-Innovation-Group/PITSA/blob/main/LICENSE) for further details. If you are interested in a commercial license, please contact [CMU Center for Technology Transfer and Enterprise Creation](https://www.cmu.edu/cttec/contact-us/index.html) at **innovation@cmu.edu**.
