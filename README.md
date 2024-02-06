@@ -106,7 +106,7 @@ When the Python scripts for the GPU-based parallel region classification method 
 ## Citation
 Please cite the following journal paper in your publications if the PITSA project helps your research.
 
-Zhang, G., Feng, W., & Cagan, J. (2024). A GPU-Based Parallel Region Classification Method for Continuous Constraint Satisfaction Problems. Journal of Mechanical Design, 146(4): 041001. https://doi.org/10.1115/1.4063158
+Zhang, G., Feng, W., & Cagan, J. (2024). A GPU-Based Parallel Region Classification Method for Continuous Constraint Satisfaction Problems. Journal of Mechanical Design, 146(4): 041705. https://doi.org/10.1115/1.4063158
 
 The paper could be accessed through the author's ResearchGate page ([**link**](https://www.researchgate.net/publication/373041009_A_GPU-Based_Parallel_Region_Classification_Method_for_Continuous_Constraint_Satisfaction_Problems)).
 
